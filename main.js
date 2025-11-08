@@ -10,7 +10,7 @@ var typed = new Typed('.test', {
     strings: ['Développeur Web', 'Trader', 'Entrepreneur'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    backDelay: 100,
     loop: true
 });
 
@@ -111,6 +111,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
 
 
 
