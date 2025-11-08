@@ -1,9 +1,9 @@
-var type=new Typed('.test',{
+/*var type=new Typed('.test',{
     strings:["Développeur Web","Developpeur Mobile","Trader","Entrepreneur"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
-
+*/
 });
 // Animation du texte avec Typed.js
 const typed = new Typed('.test', {
@@ -111,6 +111,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
 
 
 
