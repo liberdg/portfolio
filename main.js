@@ -6,11 +6,11 @@
 */
 });
 // Animation du texte avec Typed.js
-var typed = new Typed('.test', {
+var type = new Typed('.test', {
     strings: ['Développeur Web', 'Trader', 'Entrepreneur'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 100,
+    
     loop: true
 });
 
@@ -111,6 +111,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
 
 
 
