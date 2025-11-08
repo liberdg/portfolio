@@ -211,8 +211,8 @@ body
 }
 .home-content h1
 {
-    font-size:70px;
-    font-weight:300;
+    font-size:40px;
+    font-weight:200;
     margin:-3px 0;
     animation:slideBotton 1s ease forwards;
     animation-delay:1s;
@@ -930,3 +930,4 @@ body
     }
 
 }
+
