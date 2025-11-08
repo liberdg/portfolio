@@ -1,18 +1,18 @@
-var type=new Typed('.test',{
+/*var type=new Typed('.test',{
     strings:["Développeur Web","Developpeur Mobile","Trader","Entrepreneur"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
 
-});
+});*/
 // Animation du texte avec Typed.js
-/*var typed = new Typed('.test', {
+const typed = new Typed('.test', {
     strings: ['Développeur Web', 'Trader', 'Entrepreneur'],
     typeSpeed: 100,
-    backSpeed: 100,
+    backSpeed: 60,
     
     loop: true
-});*/
+});
 
 // Menu hamburger pour mobile
 const menuIcon = document.querySelector('.menu-icon');
@@ -111,6 +111,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
 
 
 
